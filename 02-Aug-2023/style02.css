@@ -1,0 +1,23 @@
+* {
+  background-color: #fcdead;
+}
+p {
+  color: rgb(153, 105, 28);
+}
+h1 {
+  color: rgb(29, 77, 4);
+}
+#def1 {
+  color: rgb(120, 87, 15);
+}
+
+.love {
+  color: #9a0e1a;
+}
+.mvlove {
+  color: #832905;
+}
+button {
+  color: rgb(104, 6, 40);
+  background-color: rgb(228, 155, 19);
+}
