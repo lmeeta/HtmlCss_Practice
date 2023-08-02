@@ -1,0 +1,20 @@
+* {
+  background-color: #e3a6a6;
+}
+p {
+  color: rgb(75, 13, 72);
+}
+h1 {
+  color: rgb(148, 7, 11);
+}
+#def1 {
+  color: rgb(147, 8, 101);
+}
+
+h2 {
+  color: #614bed;
+}
+button {
+  color: rgb(104, 6, 40);
+  background-color: rgb(243, 105, 210);
+}
