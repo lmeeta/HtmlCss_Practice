@@ -1,0 +1,43 @@
+* {
+  background-color: rgb(201, 248, 248);
+  color: brown;
+}
+h1,
+h2,
+h3 {
+  color: rgb(19, 19, 140);
+}
+h1 {
+  text-align: center;
+  text-decoration: rgb(63, 69, 9) solid underline;
+}
+#date1 {
+  text-align: start;
+}
+#date2 {
+  text-align: end;
+}
+h2 {
+  text-align: center;
+  text-decoration: aqua wavy line-through;
+}
+a {
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+}
+h3 {
+  text-align: right;
+  text-decoration: yellow double overline;
+}
+
+.date3 {
+  text-align: left;
+}
+#a4 {
+  text-decoration: red dotted underline;
+  text-align: left;
+}
+#date5 {
+  text-decoration: palevioletred dashed underline;
+}
