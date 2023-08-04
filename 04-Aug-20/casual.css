@@ -1,0 +1,29 @@
+* {
+  background-color: blanchedalmond;
+}
+p {
+  color: blueviolet;
+}
+h3 {
+  background-color: aquamarine;
+  text-align: center;
+  text-decoration: red dotted underline;
+}
+button {
+  text-align: right;
+}
+h4 {
+  background-color: aquamarine;
+  text-align: center;
+  text-decoration: rgb(21, 124, 10) wavy underline;
+}
+.myclass {
+  text-align: center;
+  text-shadow: 0cqb;
+}
+#rgh {
+  color: rgb(94, 91, 12);
+  text-align: center;
+  background-color: aquamarine;
+  text-decoration: rgb(207, 12, 168) dashed underline;
+}
