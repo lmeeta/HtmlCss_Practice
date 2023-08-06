@@ -1,0 +1,29 @@
+* {
+  background-color: rgb(244, 199, 160);
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: brown;
+}
+p {
+  color: rgb(196, 85, 6);
+}
+#one {
+  line-height: 2px;
+}
+#two {
+  line-height: 6px;
+}
+#three {
+  line-height: normal;
+}
+#four {
+  line-height: 10px;
+}
+#five {
+  line-height: 16px;
+}
+#six {
+  line-height: 30px;
+}

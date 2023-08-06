@@ -1,0 +1,35 @@
+* {
+  background-color: rgb(244, 199, 160);
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: brown;
+}
+p {
+  color: rgb(196, 85, 6);
+}
+#one {
+  font-weight: bold;
+  font-size: larger;
+}
+#two {
+  font-weight: lighter;
+  font-size: small;
+}
+#three {
+  font-weight: bolder;
+  font-size: medium;
+}
+#four {
+  font-weight: normal;
+  font-size: xx-large;
+}
+#five {
+  font-weight: 900;
+  font-size: 25px;
+}
+#six {
+  font-weight: 300;
+  font-size: 10px;
+}
