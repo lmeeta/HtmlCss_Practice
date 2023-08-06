@@ -1,0 +1,29 @@
+* {
+  background-color: rgb(244, 199, 160);
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: brown;
+}
+p {
+  color: rgb(196, 85, 6);
+}
+#one {
+  font-family: arial;
+}
+#two {
+  font-family: cursive;
+}
+#three {
+  font-family: sans-serif;
+}
+#four {
+  font-family: serif;
+}
+#five {
+  font-family: monospace;
+}
+#six {
+  font-family: fantasy;
+}
