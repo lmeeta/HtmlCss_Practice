@@ -1,0 +1,44 @@
+* {
+  background-color: rgb(101, 240, 240);
+}
+h1 {
+  text-align: center;
+  text-decoration: red dotted underline;
+  color: rgb(5, 56, 5);
+}
+p {
+  color: rgb(132, 58, 5);
+  text-transform: normal;
+}
+h3 {
+  color: rgb(11, 77, 50);
+  text-align: center;
+  background-color: rgb(114, 243, 200);
+}
+h2 {
+  color: rgb(9, 9, 109);
+}
+#tap {
+  text-transform: lowercase;
+}
+#mineral {
+  text-transform: none;
+}
+#bottle {
+  text-transform: uppercase;
+}
+#glacier {
+  text-transform: capitalize;
+}
+#well {
+  text-transform: lowercase;
+}
+#distilled {
+  text-transform: none;
+}
+#hard {
+  text-transform: uppercase;
+}
+#alkaline {
+  text-transform: capitalize;
+}
