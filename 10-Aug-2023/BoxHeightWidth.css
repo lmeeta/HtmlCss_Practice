@@ -1,0 +1,16 @@
+p {
+  background-color: rgb(190, 134, 190);
+  height: 200px;
+  width: 100%;
+}
+h1 {
+  background-color: rgb(190, 34, 67);
+  color: white;
+  height: 50px;
+  width: 100%;
+}
+button {
+  color: rgb(190, 34, 67);
+  height: 50px;
+  width: 75px;
+}
