@@ -1,0 +1,20 @@
+* {
+    background-color :#BEADFA;
+}
+h1{
+    color:#313866;
+    border:2px dashed #974EC3 ;
+    padding-left:140px;
+   text-decoration:2px solid line-through ;
+   margin:30px 5px 5px 5px;
+      }
+h3{
+    color: #0a5374;
+    text-decoration :4px solid underline #740048;
+    border:3px dotted #740005;
+    padding:15px;
+    margin:30px;
+}
+p{
+    margin:20px 5px 5px 15px;
+}
