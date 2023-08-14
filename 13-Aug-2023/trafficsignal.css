@@ -1,0 +1,36 @@
+#rect {
+  background-color: black;
+  height: 420px;
+  width: 160px;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 30px;
+}
+.rectR {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 30px;
+}
+.rectY {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 30px;
+}
+.rectG {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 30px;
+}
+#pole {
+  height: 115px;
+  width: 55px;
+  margin-left: 105px;
+  margin-top: -15px;
+  background-color: black;
+}

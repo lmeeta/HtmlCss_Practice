@@ -1,0 +1,14 @@
+#header1 {
+  background-color: pink;
+}
+#button1 {
+  background-color: #8098ff;
+}
+#header2 {
+  background-color: pink;
+  display: inline;
+}
+#button2 {
+  background-color: #8098ff;
+  display: block;
+}
