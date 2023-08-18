@@ -1,0 +1,59 @@
+* {
+  background-color: #95a2ff;
+}
+h1 {
+  text-align: center;
+  text-decoration: 3px solid underline #4b72e0;
+  font-size: 100px;
+}
+h2 {
+  text-align: center;
+  border: 3px dashed #ece93b;
+  font-size: 30px;
+  background-color: #4b72e0;
+  color: #ece93b;
+}
+div {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 25px;
+
+  border: 5px solid #4b72e0;
+  background-color: #505bc1;
+  color: #ff5f55f3;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#pillows {
+  position: static;
+}
+#cushion {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+#bedsheets {
+  position: relative;
+  bottom: 20px;
+  top: 50px;
+}
+#mattress {
+  font-size: 20px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 100vw;
+  height: 0vh;
+  left: 10px;
+  /* padding :20px ; */
+  margin: 5px;
+}
+#space {
+  position: sticky;
+  top: 0px;
+
+  right: 20px;
+}
