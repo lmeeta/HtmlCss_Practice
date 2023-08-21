@@ -1,0 +1,30 @@
+* {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+#navbar {
+  height: 60px;
+
+  background-color: black;
+  border: 5px solid white;
+}
+#logo {
+  font-size: 30px;
+  color: #ba7a0f;
+}
+button {
+  background-color: #ba7a0f;
+}
+a {
+  margin-right: 70px;
+  text-decoration: none;
+}
+
+#circle {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+}

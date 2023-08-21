@@ -1,0 +1,30 @@
+div {
+  margin: 15px;
+  background-color: blue;
+}
+#div1 {
+  background-color: red;
+}
+#div2 {
+  background-color: blue;
+  display: none;
+}
+#div3 {
+  background-color: green;
+}
+.none {
+  background-color: pink;
+}
+.hidden {
+  background-color: #d5ffdf;
+}
+#div4 {
+  background-color: red;
+}
+#div5 {
+  background-color: blue;
+  visibility: hidden;
+}
+#div6 {
+  background-color: green;
+}
