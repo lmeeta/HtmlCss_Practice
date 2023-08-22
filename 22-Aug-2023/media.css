@@ -1,0 +1,39 @@
+.start {
+  background-color: blue;
+  height: 200px;
+  width: 300px;
+  font-size: 40px;
+  color: white;
+}
+@media (width: 600px) {
+  .start {
+    background-color: green;
+    font-size: smaller;
+  }
+}
+@media (min-width: 500px) {
+  .start {
+    background-color: brown;
+    font-size: xx-large;
+  }
+}
+@media (max-width: 200px) {
+  .start {
+    background-color: rgb(246, 10, 187);
+    font-size: x-large;
+    color: black;
+  }
+}
+.hello {
+  background-color: rgb(47, 255, 0);
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  font-size: 40px;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .hello {
+    background-color: red;
+    font-size: 80px;
+  }
+}
