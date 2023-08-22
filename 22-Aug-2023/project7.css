@@ -1,0 +1,44 @@
+div {
+  margin: 20px;
+  font-size: xx-large;
+}
+.start {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(30, 36, 210);
+}
+@media (max-width: 300px) {
+  .start {
+    background-color: green;
+  }
+}
+.painting {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(6, 237, 237);
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  .painting {
+    background-color: rgb(236, 32, 236);
+  }
+}
+.bird {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(2, 61, 17);
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .bird {
+    background-color: rgb(243, 5, 5);
+  }
+}
+.tiger {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(118, 230, 146);
+}
+@media (min-width: 600px) {
+  .tiger {
+    background-color: rgb(95, 116, 234);
+  }
+}
