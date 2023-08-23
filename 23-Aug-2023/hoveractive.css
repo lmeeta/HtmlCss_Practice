@@ -1,0 +1,39 @@
+* {
+  background-color: pink;
+}
+.pekin {
+  background-color: red;
+  height: 100px;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: 5px dotted underline white;
+  color: white;
+}
+.pekin:hover {
+  background-color: blue;
+}
+.pp {
+  background-color: #ff5574;
+  height: 1000px;
+  font-size: 30px;
+  text-align: left;
+  color: white;
+}
+.pp:hover {
+  background-color: #5597ff;
+  font-size: 40px;
+  text-align: right;
+}
+button {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  color: white;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+button:active {
+  background-color: blue;
+}
