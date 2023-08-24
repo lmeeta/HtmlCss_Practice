@@ -1,3 +1,7 @@
+* {
+  transition: all 3s ease-in-out;
+}
+
 .translate {
   height: 100px;
   width: 100px;
@@ -11,7 +15,6 @@
   border: 3px solid black;
 }
 #meeta:hover {
-  transition: all 3s ease-in;
   background-color: green;
   color: white;
   transform: translate(20px);
