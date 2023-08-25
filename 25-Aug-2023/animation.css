@@ -1,0 +1,85 @@
+h1 {
+  background-color: aqua;
+  height: 60px;
+  color: black;
+  text-align: center;
+  text-decoration: 3px dotted underline red;
+  padding: 15px;
+}
+.wax {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  color: black;
+  margin: 30px;
+  border: 3px dashed black;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+#soft {
+  animation-name: colorchange;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 10;
+}
+#hard {
+  animation-name: colorchange;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 4s;
+  animation-iteration-count: 10;
+}
+
+#sugar {
+  animation: colorchange 2s ease-in 1s 20 normal;
+}
+#fruit {
+  border-radius: 50%;
+  animation: colorchange 0.2s ease-out 0s infinite;
+}
+
+@keyframes colorchange {
+  from {
+    background-color: aquamarine;
+  }
+  to {
+    background-color: red;
+    color: white;
+  }
+}
+.choc {
+  height: 100px;
+  width: 200px;
+  background-color: aquamarine;
+  color: black;
+  margin: 30px;
+  border: 3px dashed black;
+  padding: 1%;
+}
+#choc1 {
+  animation: vishal 2s ease-in 1s 5 normal;
+}
+#choc2 {
+  animation: vishal 4s ease-in 2s 10 reverse;
+}
+#choc3 {
+  animation: vishal 3s ease-in 4s 15 alternate;
+}
+#choc4 {
+  animation: vishal 5s ease-in 5s 20 alternate-reverse;
+}
+
+@keyframes vishal {
+  from {
+    background-color: aquamarine;
+  }
+  to {
+    background-color: red;
+    color: white;
+    transform: translate(200px);
+  }
+}
