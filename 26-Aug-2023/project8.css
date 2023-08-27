@@ -1,0 +1,35 @@
+.loader {
+  height: 100px;
+  width: 100px;
+  border: 20px solid yellow;
+  border-radius: 50%;
+  border-top: 15px solid blue;
+
+  animation: project 3s ease-in infinite normal;
+}
+@keyframes project {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loader1 {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+  background-color: beige;
+  border: 20px solid white;
+  border-radius: 50%;
+  border-top: 12px solid black;
+  animation: project1 1s ease-in infinite normal;
+}
+@keyframes project1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

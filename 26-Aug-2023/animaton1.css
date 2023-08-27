@@ -1,0 +1,44 @@
+.onediv {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  position: absolute;
+  top: 100px;
+  font-size: larger;
+}
+#hello {
+  animation: animate 4s ease-in 2s 10 reverse;
+}
+#wellcome {
+  top: 250px;
+  animation: animate 4s ease-in-out 2s 20 normal;
+}
+#hi {
+  top: 400px;
+  animation: animate 4s ease-in 2s 30 alternate;
+}
+#namaskar {
+  top: 550px;
+  animation: animate 4s ease-in-out 2s 40 alternate-reverse;
+}
+
+@keyframes animate {
+  0% {
+    left: 0px;
+    background-color: blueviolet;
+  }
+  50% {
+    left: 0px;
+    background-color: rgb(236, 9, 217);
+    font-size: 80px;
+    width: 170px;
+    height: 120px;
+    border: 2px solid blue;
+  }
+  100% {
+    left: 200px;
+    background-color: rgb(232, 9, 79);
+    color: white;
+    font-size: xx-large;
+  }
+}
