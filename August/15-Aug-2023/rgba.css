@@ -1,0 +1,48 @@
+* {
+  background-color: #dcb7d3f6;
+  color: #00439d;
+}
+
+h1 {
+  text-align: centre;
+  text-decoration: 4px dashed underline #dc5c7ff6;
+}
+
+h3 {
+  background-color: #6e83dcf6;
+  color: white;
+  border: 2px dotted white;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  padding: 5px;
+  color: #005c9d;
+  display: inline-block;
+}
+
+.strength {
+  background-color: rgba(255, 148, 0, 0.4);
+}
+.courage {
+  background-color: rgba(255, 148, 0, 0.75);
+}
+
+#peace {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+#truth {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#fertility {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+#growth {
+  background-color: rgba(0, 255, 0, 0.4);
+}
+#auspicious {
+  background-color: rgba(0, 255, 0, 0.6);
+}
