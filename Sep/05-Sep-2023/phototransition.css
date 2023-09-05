@@ -1,0 +1,36 @@
+* {
+  background-color: aquamarine;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.box {
+  height: 370px;
+  width: 300px;
+  background-color: blue;
+  overflow: hidden;
+}
+.box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 1s;
+}
+.box:hover img {
+  scale: 1.4;
+}
+.common {
+  height: 400px;
+  width: 200px;
+}
+.box1 img {
+  filter: brightness(2);
+}
+.box2 img {
+  filter: grayscale();
+}
+.box3 img {
+  filter: blur(10px);
+}
