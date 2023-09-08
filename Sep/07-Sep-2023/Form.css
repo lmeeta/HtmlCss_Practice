@@ -1,0 +1,89 @@
+* {
+  background-color: azure;
+}
+.commondiv {
+  display: flex;
+  height: 500px;
+  width: 800px;
+  margin: 40% 40% 40% 20%;
+  justify-content: space-evenly;
+  color: black;
+}
+.firstdiv {
+  background-color: aqua;
+  height: 500px;
+  width: 400px;
+  padding-left: 7%;
+}
+#firstdivh2 {
+  background-color: aqua;
+}
+#general {
+  background-color: aqua;
+}
+input#big {
+  background-color: aqua;
+  width: 90%;
+  border: none;
+  border-bottom: 2px solid black;
+}
+input#small {
+  background-color: aqua;
+  width: 42%;
+  margin-right: 10px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+input#big::placeholder {
+  color: black;
+}
+input#small::placeholder {
+  color: black;
+}
+
+.seconddiv {
+  background-color: blue;
+  height: 500px;
+  width: 400px;
+  padding-left: 5%;
+  color: white;
+}
+#contact {
+  background-color: blue;
+}
+#seconddivh2 {
+  background-color: blue;
+  color: white;
+}
+input#big1 {
+  background-color: blue;
+  width: 90%;
+  border: none;
+  border-bottom: 2px solid black;
+}
+input#big1::placeholder {
+  color: white;
+}
+input#small1::placeholder {
+  color: white;
+}
+input#small1 {
+  background-color: blue;
+  width: 42%;
+  margin-right: 10px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+#seconddivep {
+  background-color: blue;
+}
+#seconddivep a {
+  background-color: blue;
+  color: white;
+}
+button {
+  background-color: rgb(201, 201, 245);
+  width: 40%;
+  padding: 10px;
+  border-radius: 20px;
+}
