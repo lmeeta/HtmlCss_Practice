@@ -1,0 +1,52 @@
+* {
+  background-color: #198;
+}
+.parent {
+  display: flex;
+  height: 500px;
+}
+.gear {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: auto;
+  background: #fff;
+  border-radius: 50%;
+  animation: spin 4s infinite linear;
+}
+.gear .center {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 10;
+  width: 100px;
+  height: 100px;
+  background: #198;
+  border-radius: 50%;
+}
+.tooth {
+  position: absolute;
+  top: -25px;
+  left: 75px;
+  z-index: 1;
+  height: 250px;
+  width: 45px;
+  background: #fff;
+}
+.tooth:nth-child(2) {
+  transform: rotate(45deg);
+}
+.tooth:nth-child(3) {
+  transform: rotate(90deg);
+}
+.tooth:nth-child(4) {
+  transform: rotate(135deg);
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
