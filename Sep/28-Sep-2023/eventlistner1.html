@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Listner Ex: 1</title>
+    <style>
+      * {
+        background-color: rgb(179, 179, 230);
+      }
+      .heading {
+        text-align: center;
+      }
+      .mainbox {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #boxs {
+        height: 150px;
+        width: 100px;
+        border: 5px solid;
+        padding: 5px;
+        text-align: center;
+        font-size: 25px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="heading">Event Listner Example 1</h1>
+    <div class="mainbox">
+      <div id="boxs">
+        <p>Element one</p>
+        <button onclick="alert('I Love Javascript')">Enter</button>
+      </div>
+
+      <div id="boxs">
+        <p>Element two</p>
+        <button class="btn-2">Click</button>
+      </div>
+
+      <div id="boxs" class="btn-3">
+        <p>Element three</p>
+        <button>MouseOver</button>
+      </div>
+    </div>
+
+    <script src="eventlistner1.js"></script>
+  </body>
+</html>
