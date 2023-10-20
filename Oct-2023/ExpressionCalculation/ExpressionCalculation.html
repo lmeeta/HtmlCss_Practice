@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExpressionCalculation</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: aqua;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+      }
+      h1 {
+        color: black;
+        border: 2px dashed black;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+      }
+      input {
+        display: block;
+        margin: 10px;
+        width: 80px;
+        margin-left: 10%;
+      }
+      button {
+        height: 40px;
+        font-weight: bold;
+        width: 90px;
+        background-color: rgb(189, 68, 7);
+        color: #fff;
+        margin-right: 10%;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maincontent">
+      <h1>Let Calculate the Expression!</h1>
+      <h2>Num1 * Num2 / Num3</h2>
+      <input type="number" id="num1" />
+      <input type="number" id="num2" />
+      <input type="number" id="num3" />
+
+      <button id="clickresult">Get Result!</button>
+    </div>
+
+    <div>
+      <p id="result"></p>
+    </div>
+
+    <script src="ExpressionCalculation.js"></script>
+  </body>
+</html>
